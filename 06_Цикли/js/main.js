@@ -57,18 +57,42 @@ const string = "Java Script";
 // console.log("index[9] :>> ", string[9]);
 // console.log("index[10] :>> ", string[10]);
 
-for (let i = 0; i < string.length; i += 1) {
-  const element = string[i];
-  console.log(`${i + 1}   :>> `, element);
-}
+// for (let i = 0; i < string.length; i += 1) {
+//   const element = string[i];
+//   console.log(`${i + 1}   :>> `, element);
+// }
 
-const max = 15;
+// const max = 15;
 
-for (let i = 1; i <= max; i += 1) {
-  console.log(i);
-}
+// for (let i = 1; i <= max; i += 1) {
+//   console.log(i);
+// }
 
-for (let i = string.length - 1; i >= 0; i -= 1) {
-  const element = string[i];
-  console.log(element);
-}
+// for (let i = string.length - 1; i >= 0; i -= 1) {
+//   const element = string[i];
+//   console.log(element);
+// }
+
+//6 =======================  break  ====================
+
+// for (let i = 1; i <= 10; i += 1) {
+//   console.log(i);
+
+//   if (i === 5) {
+//     break;
+//   }
+// }
+
+//6 ====================== continue =======================
+
+// const number = 15;
+
+// for (let i = 0; i <= number; i += 1) {
+//   if (i % 2 === 0) {
+//     continue;
+//   }
+
+//   console.log(i);
+// }
+
+
